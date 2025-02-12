@@ -13,7 +13,7 @@ export function User({ name, age, email, city, profesion, avatar }: Props) {
     return (
         <div>
             <h1>Informações do Usuário: </h1>
-            <img src="{avatar}" alt="avatar" width={150}/>
+            <img src={avatar} alt="avatar" width={150}/>
             <p>Name: {name}</p>
             <p>Age: {age}</p>
             <p>Email: {email}</p>
