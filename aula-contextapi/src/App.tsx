@@ -1,21 +1,13 @@
-import React from 'react';
-import './App.css';
-import { Container } from './components/container';
-import { Text } from './components/text'
-import { Title } from './components/title';
-
+import React, { useState } from 'react';
+import { Profile } from './components/Profile';
+import UserContext from './contexts/UserContext';
 
 function App() {
+  const [name, setName] = useState("Eduardo")
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Olá, Mundo
-        </p>
-        <Container children={<Text/>}/>
-        <Container children={<Title/>}/>
-      </header>
-    </div>
+    <UserContext.Provider value={{ name, setName }}>
+      <Profile />
+    </UserContext.Provider>
   );
 }
 
