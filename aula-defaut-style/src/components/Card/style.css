@@ -1,0 +1,17 @@
+.card {
+    background: #f2f2f2;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 4px;
+
+    font-family: "Arial", sans-serif;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-content {
+    font-size: 14px;
+}
