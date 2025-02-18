@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Post } from "./Post";
-import { list } from "postcss";
 
 interface IPost {
     id: number
