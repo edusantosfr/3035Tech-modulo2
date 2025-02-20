@@ -1,0 +1,3 @@
+npm install --save-dev ajv@^7
+
+npm create vite@latest (project name) -- --template react-ts && cd (project name) && npm install && npm install -D tailwindcss @tailwindcss/vite postcss autoprefixer
